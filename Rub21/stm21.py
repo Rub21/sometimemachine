@@ -15,37 +15,36 @@ print("piping %s -> %s" % (osm_filename, sqlite_filename))
 conn = sqlite3.connect(sqlite_filename)
 
 cur = conn.cursor()
-print(cur)
 
 # Optimize connection
 cur.execute("""PRAGMA synchronous=0""")
 cur.execute("""PRAGMA locking_mode=EXCLUSIVE""")
 cur.execute("""PRAGMA journal_mode=DELETE""")
-print(cur)
-#id="207785" lat="52.5240094" lon="-1.8713573" version="4" timestamp="2013-04-19T15:22:11Z"
-#changeset="15786682" uid="735" user="blackadder"
 query = """insert into osm_changeset
-    (user_id, osm_user, lon, lat, timestamp, version, changeset)
-    values (?, ?, ?, ?, ?, ?, ?)"""
-#print(query)
-#print("----------attrib")
+    (rowid, user_id, osm_user, lon, lat, timestamp, version, changeset)
+    values (?, ?, ?, ?, ?, ?, ?, ?)"""
+
+counter = 0
 def save(attrib):
-    attrib_id = int(attrib['id'])
-    #print attrib_id
+    global counter
+    counter = counter +1
+    print counter 
+    #attrib_id = int(attrib['id'])    
     attrib_user = attrib.get('user', "none")
-    print(attrib.get('user'))
-    if(int(parse(attrib["timestamp"]).strftime('%s'))>=1364774400): #from 04/20/2013 1366416000
+
+    if((int(parse(attrib["timestamp"]).strftime('%s'))>=1366416000) & (int(parse(attrib["timestamp"]).strftime('%s'))<1366502400)): #from 04/20/2013 1366416000
      cur.execute(query,
-        (int(attrib.get('uid', -1)),
+        (counter,
+        int(attrib.get('uid', -1)),
 	    attrib_user,
         float(attrib.get('lon', 0)),
         float(attrib.get('lat', 0)),
         int(parse(attrib["timestamp"]).strftime('%s')),       
         int(attrib['version']),
         int(attrib['changeset'])))
-    if (attrib_id % 100000 == 0):
-        conn.commit()
-        print("%d done===================================" % int(attrib['id']))
+    if ((counter % 100000 == 0) | (counter == 1158216)):
+       conn.commit()
+       print("%d done===================================================================" % counter)
 
 def start_element(name, attrs):
     if name == 'node':
