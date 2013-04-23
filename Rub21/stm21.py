@@ -27,12 +27,13 @@ query = """insert into osm_changeset
 counter = 0
 def save(attrib):
     global counter
-    counter = counter +1
+    
     print counter 
     #attrib_id = int(attrib['id'])    
     attrib_user = attrib.get('user', "none")
-
+    print (int(parse(attrib["timestamp"]).strftime('%s')))
     if((int(parse(attrib["timestamp"]).strftime('%s'))>=1366416000) & (int(parse(attrib["timestamp"]).strftime('%s'))<1366502400)): #from 04/20/2013 1366416000
+     counter = counter +1
      cur.execute(query,
         (counter,
         int(attrib.get('uid', -1)),
