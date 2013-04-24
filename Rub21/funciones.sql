@@ -1,16 +1,16 @@
-﻿select osm_user,(CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * closed_at)|| ' ') AS date)|| '') as closed_at ,
+﻿select osm_user,(CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * timestamp)|| ' ') AS date)|| '') as timestamp ,
 num_changes from  osm_changeset   where osm_user='bot-mode' ORDER BY num_changes DESC;
 /**************************************************/
 /*order By moth*/
-select substring((CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * closed_at)|| ' ') AS date)|| ''),1,7) as date , 
+select substring((CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * timestamp)|| ' ') AS date)|| ''),1,7) as date , 
 count(num_changes) as num_edition, sum(num_changes) as num_changes from  osm_changeset  where osm_user='SDT_420'
-GROUP BY substring((CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * closed_at)|| ' ') AS date)|| ''),1,7) 
-ORDER BY substring((CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * closed_at)|| ' ') AS date)|| ''),1,7) DESC;
+GROUP BY substring((CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * timestamp)|| ' ') AS date)|| ''),1,7) 
+ORDER BY substring((CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * timestamp)|| ' ') AS date)|| ''),1,7) DESC;
 
 /*Order By Day order */
-select (CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * closed_at)|| ' ') AS date)|| '') as date , 
-count(num_changes) as num_edition, sum(num_changes) as num_changes from  osm_changeset  where osm_user='SDT_420'
-GROUP BY (CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * closed_at)|| ' ') AS date)|| '')
+select (CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * timestamp)|| ' ') AS date)|| '') as date , 
+count(num_changes) as num_edition, sum(num_changes) as num_changes from  osm_changeset  where osm_user='ian29'
+GROUP BY (CAST(((TIMESTAMP WITH TIME ZONE 'epoch' +  INTERVAL '1 second' * timestamp)|| ' ') AS date)|| '')
 ORDER BY num_changes DESC;
 /*
 OSMF Redaction Account
@@ -84,13 +84,13 @@ DECLARE
 $$ LANGUAGE plpgsql;
 
 
-select get_date_by_hour(closed_at) from osm_changeset limit 100
+select get_date_by_hour(timestamp) from osm_changeset limit 100
 
-select get_date_by_day(closed_at)as date,
+select get_date_by_day(timestamp)as date,
 count(num_changes) as num_edition, sum(num_changes) as num_changes 
 from  osm_changeset  where user_id=510836
-GROUP BY get_date_by_day(closed_at)
-ORDER BY get_date_by_day(closed_at) ;
+GROUP BY get_date_by_day(timestamp)
+ORDER BY get_date_by_day(timestamp) ;
 
 
 --promedio de subidas por dia..

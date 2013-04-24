@@ -3,8 +3,7 @@
 
 
 CREATE INDEX osm_changeset_index ON osm_changeset(ogc_fid);
-ALTER TABLE osm_changeset ADD COLUMN lat double precision;
-ALTER TABLE osm_changeset ADD COLUMN lon double precision;
+
 ALTER TABLE osm_changeset ADD COLUMN geom GEOMETRY;
 CREATE INDEX geom_osm_changeset_index  ON osm_changeset using gist(geom);
 
@@ -57,12 +56,12 @@ BEGIN
         FOR _i IN init..final
         
 		LOOP 	
-		    --RAISE  NOTICE '====================ID=%', _i;
+		    RAISE  NOTICE '====================ID=%', _i;
 			_geom=(select geom from osm_changeset where ogc_fid=_i);
 			_bandera=check_contained(_geom);
 			--RAISE  NOTICE '===========================%', _bandera ;
 			IF (_bandera=false) THEN
-			--RAISE  NOTICE '===========================%', 'Elimina' ;			
+			RAISE  NOTICE '===========================%', 'Elimina' ;			
 				DELETE FROM osm_changeset
 				WHERE ogc_fid=_i;					 				    
 			END IF;				
@@ -75,44 +74,17 @@ $$ LANGUAGE plpgsql;
 
 --Ejecutar Funcion para ajecutar mmas rapido el procesamiento y aprovechar al maxino La Maquina
 --select remove_changes(1,100000);
-select remove_changes(1,200000);
-select remove_changes(200001,400000);
-select remove_changes(400001,600000);
-select remove_changes(600001,800000);
-select remove_changes(800001,1000000);
-
---------------------
-select remove_changes(1000001,1200000);
-select remove_changes(1200001,1400000);
-select remove_changes(1400001,1600000);
-
---------------------------
-select remove_changes(1600001,1800000);
-select remove_changes(1800001,2000000);
-select remove_changes(2000001,2200000);
-select remove_changes(2200001,2400000);
-select remove_changes(2400001,2600000);
-select remove_changes(2600001,2800000);
-select remove_changes(2800001,3000000);-----falta aun
-select remove_changes(3000001,3200000);
-
-------------------------------------
-
-select remove_changes(3200001,3400000);
-select remove_changes(3400001,3600000);
-select remove_changes(3600001,3800000);
-select remove_changes(3800001,4000000);
-select remove_changes(4000001,4200000);
-select remove_changes(4200001,4400000);
-
-
--------------------------------
-select remove_changes(4400001,4600000);
-
-select remove_changes(4600001,4800000);
-select remove_changes(4800001,5000000);
-select remove_changes(5000001,5141885);
+select remove_changes(1,100000);
+select remove_changes(100001,200000);
+select remove_changes(200001,300000);
+select remove_changes(300001,400000);
+select remove_changes(400001,500000);
+select remove_changes(500001,600000);
+select remove_changes(600001,700000);
+select remove_changes(700001,800000);
+select remove_changes(800001,900000);
+select remove_changes(900001,1000000);
 
 select count(*) from osm_changeset
 
-
+select * from osm_changeset limit 10 ogc_fid

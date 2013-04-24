@@ -1,0 +1,500 @@
+   15  cd report_top_us/
+   16  git add .
+   17  git commit -m 'json'
+   18  git push -u origin gh-pages
+   19  git add .
+   20  git commit -m 'json'
+   21  git push -u origin gh-pages
+   22  sudo apt-get install msn-pecan
+   23   sudo apt-get update pidgin
+   24  ldd /usr/bin/svn | grep ssl
+   25  sudo apt-get install ssl
+   26  sudo apt-get install pidgin-plugin-pack
+   27   cd topojson/
+   28  npm install -g topojson
+   29  sudo npm install -g topojson
+   30  topojson -o output_file.json input_file.json
+   31  topojson -o output_file.json user722137.json
+   32  topojson -o output_file.json user379381.json
+   33  topojson -o user722137-topo.json  user722137.json
+   34  topojson -o user379381-topo.json user379381.json
+   35  cd ..
+   36  git status
+   37  git add .
+   38  git commit -m 'topjson'
+   39  git push -u origin gh-pages
+   40  ~/.dropbox-dist/dropboxd
+   41  ~/.dropbox-dist/dropboxd
+   42  cd Dropbox/
+   43  cd webpages/
+   44  cd lab-backbone/
+   45  git clone https://github.com/ccoenraets/backbone-cellar.git
+   46  git clone https://github.com/ccoenraets/backbone-jax-cellar.git
+   47  git clone https://github.com/ccoenraets/backbone-jax-cellar.git
+   48  cd ..
+   49  cd sigturayac
+   50  git add .
+   51  git commit -m 'add some files'
+   52  git push - u origin gh-pages
+   53  git push -u origin gh-pages
+   54  cd Dropbox/
+   55  cd webpages/
+   56  cd AppTesis/
+   57  https://github.com/Rub21/sig_backbone.git
+   58  git clone https://github.com/Rub21/sig_backbone.git
+   59  cd sig_backbone/
+   60  git branch
+   61  git checkout gh
+   62  git branch gh-pages
+   63  git branch gh-pages
+   64  git branch master
+   65  git branch
+   66  git chekout gh-pages
+   67  git checkout gh-pages
+   68  git branch
+   69  git add .
+   70  git commit -m 'add new '
+   71  git push -u origin gh-pages
+   72  git add . -A
+   73  git commit -m 'add new '
+   74  git push -u origin gh-pages
+   75  git commit -m 'for complementario'
+   76  git add . -A
+   77  git commit -m 'for complementario'
+   78  git push -u origin gh-pages
+   79  git add . -A
+   80  git commit -m 'add seleccion'
+   81  git push -u origin gh-pages
+   82  git commit -m 'add seleccio'
+   83  git add . -A
+   84  git commit -m 'add'
+   85  git push -u origin gh-pages
+   86  ~/.dropbox-dist/dropboxd
+   87  history
+   88  sudo su postgres
+   89  cd ..
+   90  cd Dropbox/
+   91  cd webpages/
+   92  cd AppTesis/
+   93  git clone https://github.com/Gazler/Underscore-Template-Loader.git
+   94  git clone https://github.com/mariapaulinar/jquerymobile-backbone.git
+   95  cd Dropbox/
+   96  cd webpages/
+   97  cd report_top_us/
+   98  git 
+   99  git status
+  100  git add .
+  101  git commit -m 'add users for alaska and Hawaii'
+  102  git push -u origin gh-pages
+  103  git add .
+  104  git commit -m 'add users for alaska and Hawaii'
+  105  git push -u origin gh-pages
+  106  git add .
+  107  git commit -m 'add users for alaska and Hawaii'
+  108  git push -u origin gh-pages
+  109  git add .
+  110  git commit -m 'contributors'
+  111  git push -u origin gh-pages
+  112  git add .
+  113  git add . -A
+  114  git commit -m 'improve'
+  115  git push -u origin gh-pages
+  116  git add . -A
+  117  git commit -m 'improve'
+  118  git push -u origin gh-pages
+  119  git add . -A
+  120  git commit -m 'subtitle'
+  121  git push -u origin gh-pages
+  122  git commit -m 'subtitle'
+  123  git add . -A
+  124  git commit -m 'subtitle'
+  125  git push -u origin gh-pages
+  126  git commit -m 'fixing js'
+  127  git push -u origin gh-pages
+  128  git add . -A
+  129  git commit -m 'fixing js'
+  130  git push -u origin gh-pages
+  131  git add . -A
+  132  git commit -m 'fixing js'
+  133  git push -u origin gh-pages
+  134  git add . -A
+  135  git commit -m 'fixing js'
+  136  git push -u origin gh-pages
+  137  git add . -A
+  138  git commit -m 'add new maps'
+  139  git push -u origin gh-pages
+  140  git add . -A
+  141  git commit -m 'add new maps'
+  142  git push -u origin gh-pages
+  143  git add . -A
+  144  git commit -m 'add new maps'
+  145  git push -u origin gh-pages
+  146  git add . -A
+  147  git commit -m 'add new maps'
+  148  git push -u origin gh-pages
+  149  git add . -A
+  150  git commit -m 'add new maps'
+  151  git push -u origin gh-pages
+  152  git add . -A
+  153  git commit -m 'add popover'
+  154  git push -u origin gh-pages
+  155  git add .
+  156  git commit -m 'metodologia'
+  157  git push -u origin gh-pages
+  158  git add .
+  159  git commit -m 'togle dropdown'
+  160  git push -u origin gh-pages
+  161  git add .
+  162  git add . -A
+  163  git commit -m 'togle dropdown'
+  164  git push -u origin gh-pages
+  165  cd projectmill/
+  166  history
+  167  ./index.js --mill --render  -c config.json -t /usr/share/tilemill
+  168  ./index.js --mill --render  -c config.json -t /usr/share/tilemill
+  169  ./index.js --mill --render  -c config.json -t /usr/share/tilemill
+  170  ./index.js --mill --render  -c config.json -t /usr/share/tilemill
+  171  ./index.js --mill --render  -c config.json -t /usr/share/tilemill
+  172  ./index.js --mill   -c config.json -t /usr/share/tilemill
+  173  ./index.js --mill   -c config.json -t /usr/share/tilemill
+  174  ./index.js --mill  --render  -c config.json -t /usr/share/tilemill
+  175  ./index.js --mill  --render  -c config.json -t /usr/share/tilemill
+  176  ./index.js --mill  --render  -c config.json -t /usr/share/tilemill
+  177  shp2pgsql -d -I -s 4326 alaska_hawaii.shp  us_admin | psql -d db_planet
+  178  sudo su postgres
+  179  ~/.dropbox-dist/dropboxd
+  180  cd ..
+  181  cd ..
+  182  cd ..
+  183  cd ..
+  184  ls
+  185  cd Dropbox/
+  186  cd webpages/
+  187  git clone -b gh-pages https://github.com/osmlab/topmappers.git
+  188  git clone  https://github.com/osmlab/topmappers.git
+  189  cd topmappers/
+  190  git status
+  191  git add .
+  192  git commit -m 'top users'
+  193  git push origin -u master
+  194  git push origin -u master
+  195  git push origin -u master
+  196  git status
+  197  git add .
+  198  git commit -m 'add readme and json'
+  199  git push origin -u master
+  200  git add .
+  201  git commit -m 'add readme and json'
+  202  git push origin -u master
+  203  git status
+  204  git add .
+  205  git commit -m 'add readme and json'
+  206  git commit -m 'add readme and json'
+  207  git push origin -u master
+  208  cd..
+  209  cd ..
+  210  cd projectmill/
+  211  ./index.js --mill  --render  -c config.json -t /usr/share/tilemill
+  212  cd ..
+  213  cd top
+  214  cd Dropbox/
+  215  cd webpages/
+  216  cd topmappers/
+  217  git status
+  218  git add .
+  219  git commit -m 'add readme'
+  220  git push origin -u master
+  221  cd ..
+  222  git clone https://github.com/osmlab/topmappers.git
+  223  cd topmappers/
+  224  git status
+  225  git add .
+  226  git commit -m 'add readme and json'
+  227  git push -u origin gh-pages
+  228  git add .
+  229  git commit -m 'Change base map'
+  230  git push -u origin gh-pages
+  231  git status
+  232  git add .
+  233  git commit -m 'clean'
+  234  git push -u origin gh-pages
+  235  cd /
+  236  ls
+  237  cd home/
+  238  cd home
+  239  ls
+  240  cd ruben/
+  241  cd Dropbox/
+  242  cd webpages/
+  243  git clone https://github.com/osmlab/topmappers.git
+  244  cd topmappers/
+  245  git add .
+  246  git commit -m 'remove bots'
+  247  git commit -u origin gh-pages
+  248  git commit origin -u  gh-pages
+  249  git push -u origin  gh-pages
+  250  cd /
+  251  cd home/
+  252  cd ruben/
+  253  cd Dropbox/
+  254  cd webpages/
+  255  git clone https://github.com/osmlab/topmappers.git
+  256  cd topmappers/
+  257  git status
+  258  git add .
+  259  git commit -m 'remove bots'
+  260  git push -u origin gh-pages
+  261  git add .
+  262  git commit -m 'add list bots'
+  263  git push -u origin gh-pages
+  264  ~/.dropbox-dist/dropboxd
+  265  cd ..
+  266  cd Dropbox/
+  267  cd webpages/
+  268  git clone https://github.com/osmlab/topmappers.git
+  269  cd topmappers/
+  270  git clone -b gh-pages https://github.com/osmlab/topmappers.git
+  271  cd ..
+  272  cd..
+  273  cd ..cd
+  274  cd ..
+  275  git clone https://github.com/osmlab/topmappers.git
+  276  cd topmappers/
+  277  git status
+  278  git add .
+  279  git commit -m  'update users'
+  280  git push -u origin gh-pages
+  281  git add .
+  282  git commit -m  'update users'
+  283  git push -u origin gh-pages
+  284  git add .
+  285  git commit -m 'add json files'
+  286  cd Dropbox/
+  287  cd webpages/
+  288  git clone https://github.com/Rub21/osm_bots.git
+  289  cd osm_bots/
+  290  git status
+  291  git add .
+  292  git commit -m 'add java'
+  293  git push -u origin master
+  294  git branch gh-pages
+  295  git checkout master
+  296  git checkout gh-pages
+  297  git branch
+  298  git add.
+  299  git add .
+  300  git commit -m 'add'
+  301  git push -u origin gh-pages
+  302  git add .
+  303  git commit -m 'add'
+  304  git push -u origin gh-pages
+  305  git add .
+  306  git commit -m 'add js, css , an midif json files'
+  307  git push -u origin gh-pages
+  308  git add .
+  309  git commit -m 'add json files'
+  310  git push -u origin gh-pages
+  311  git add .
+  312  git commit -m 'add users'
+  313  git push -u origin gh-pages
+  314  git add . -A
+  315  git commit -m 'add more files'
+  316  git push -u origin gh-pages
+  317  git status
+  318  git commit -m 'reverse date'
+  319  git push -u origin gh-pages
+  320  git add .
+  321  git commit -m 'reverse date'
+  322  git push -u origin gh-pages
+  323  git add .
+  324  git commit -m 'reverse date'
+  325  git push -u origin gh-pages
+  326  git add .
+  327  git commit -m 'add files'
+  328  git push -u origin gh-pages
+  329  git add .
+  330  git commit -m 'add files'
+  331  git push -u origin gh-pages
+  332  cd ..
+  333  gti clone -b gh-pages https://github.com/Rub21/midistritosb.git
+  334  git clone -b gh-pages https://github.com/Rub21/midistritosb.git
+  335  ~/.dropbox-dist/dropboxd
+  336  ~/.dropbox-dist/dropboxd
+  337  cd Dropbox/
+  338  cd webpages/
+  339  git clone  -b gh-pages https://github.com/Rub21/midistritosb.git
+  340  git clone  -b gh-pages https://github.com/Rub21/midistritosb.git
+  341  ~/.dropbox-dist/dropboxd
+  342   sudo sus postgres
+  343   sudo su postgres
+  344  ~/.dropbox-dist/dropboxd
+  345  cd Dropbox/
+  346  cd webpages/
+  347  git AppTesis/
+  348  cd AppTesis/
+  349  cd sig_backbone/
+  350  git status
+  351  git add .
+  352  git commit -m 'test with views'
+  353  git push -u origin gh-pages
+  354  cd .
+  355  cd ..
+  356  cd sometimemachine/
+  357  python stm.py 220.osc changesets.sqlite
+  358  python stm.py 220.osc changesets.sqlite
+  359  python stm.py 220.osc changesets.sqlite
+  360  python stm.py 220.osc changesets.sqlite
+  361  python stm.py 220.osc changesets.sqlite
+  362  python stm.py 220.osc changesets.sqlite
+  363  python stm.py 220.osm changesets.sqlite
+  364  python stm.py 220.osm changesets.sqlite
+  365  python stm.py 220.osm changesets.sqlite
+  366  python stm.py 220.osm changesets.sqlite
+  367  python stm.py 220.osm changesets.sqlite
+  368  cd ..
+  369  cd ..cd
+  370  cd ..
+  371  cd ..
+  372  cd ..
+  373  cd sometimemachine/
+  374  cat schema.sql | sqlite3 changesets.sqlite
+  375  python stm.py changesets-latest.osm changesets.sqlite
+  376  python stm.py changesets-latest.osm changesets.sqlite
+  377  python stm.py changesets-latest.osm changesets.sqlite
+  378  python stm.py changesets-latest.osm changesets.sqlite
+  379  python stm.py changesets-latest.osm changesets.sqlite
+  380  python stm.py changesets-latest.osm changesets.sqlite
+  381  python stm.py changesets-latest.osm changesets.sqlite
+  382  python stm.py changesets-latest.osm changesets.sqlite
+  383  python stm.py changesets-latest.osm changesets.sqlite
+  384  python stm.py changesets-latest.osm changesets.sqlite
+  385  python stm.py changesets-latest.osm changesets.sqlite
+  386  python stm.py changesets-latest.osm changesets.sqlite
+  387  python stm.py changesets-latest.osm changesets.sqlite
+  388  python stm.py changesets-latest.osm changesets.sqlite
+  389  cd  ..
+  390  git clone https://github.com/ToeBee/ChangesetMD.git
+  391  cd ChangesetMD/
+  392  cd ..
+  393  cd sometimemachine/
+  394  python stm.py changesets-latest.osm changesets.sqlite
+  395  python stm.py 220.osm changesets.sqlite
+  396  python stm.py 220.osm changesets.sqlite
+  397  python stm.py 220.osm changesets.sqlite
+  398  python stm.py 220.osm changesets.sqlite
+  399  python stm.py 220.osm changesets.sqlite
+  400  python stm.py 220.osm changesets.sqlite
+  401  python stm.py 220.osc changesets.sqlite
+  402  python stm.py 220.osc changesets.sqlite
+  403  cd  ..
+  404  cd  geos-3.3.6
+  405  cd ..
+  406  cd geos-3.3.6
+  407  cd  ..
+  408  cd go
+  409  cd 
+  410  cd Geoson/
+  411  history
+  412  history |grep converts-times.py
+  413  history|grep echo
+  414  history|grep converts-times.py
+  415  python converts-times.py 220.osm 220-time.json
+  416  sudo su postgres
+  417  cd ..
+  418   wget -O - http://m.m.i24.cc/osmconvert.c | cc -x c - -lz -O3 -o osmconvert
+  419  ./osmconvert --help
+  420  ./osmconvert 220.osc -o=220.osm
+  421  ~/.dropbox-dist/dropboxd
+  422  cd sometimemachine/
+  423  python converts-times.py 220.osm 220-time.json
+  424  python stm.py 220.osm changesets.sqlite
+  425  cat schema.sql | sqlite3 changesets.sqlite
+  426  python stm.py 220.osm changesets.sqlite
+  427  python stm.py us.osm changesets.sqlite
+  428  python stm-ru.py us.osm changesets.sqlite
+  429  python stm21.py us.osm changesets.sqlite
+  430  python stm21.py us.osm changesets.sqlite [A
+  431  cd something\ Machine_rub21/
+  432  cat schema.sql | sqlite3 changesets.sqlite
+  433  cd ..
+  434  git clone https://github.com/Rub21/sometimemachine.git
+  435  cd something\ Machine_rub21/
+  436  python stm21.py us.osm changesets.sqlite
+  437  python stm21.py us.osm changesets.sqlite
+  438  python stm21.py us.osm changesets.sqlite
+  439  python stm21.py us.osm changesets.sqlite
+  440  python stm21.py us.osm changesets.sqlite
+  441  python stm21.py us.osm changesets.sqlite
+  442  cat schema.sql | sqlite3 changesets.sqlite
+  443  cat schema.sql | sqlite3 changesets.sqlite
+  444  python stm21.py us.osm changesets.sqlite
+  445  python stm21.py us.osm changesets.sqlite
+  446  cat schema.sql | sqlite3 changesets.sqlite
+  447  python stm21.py us.osm changesets.sqlite
+  448  python stm21.py us.osm changesets.sqlite
+  449  python stm21.py us.osm changesets.sqlite
+  450  python stm21.py us.osm changesets.sqlite
+  451  python stm21.py us.osm changesets.sqlite
+  452  python stm21.py us.osm changesets.sqlite
+  453  python stm21.py us.osm changesets.sqlite
+  454  python stm21.py us.osm changesets.sqlite
+  455  python stm21.py us.osm changesets.sqlite
+  456  python stm21.py us.osm changesets.sqlite
+  457  python stm21.py us.osm changesets.sqlite
+  458  cat schema.sql | sqlite3 changesets.sqlite
+  459  python stm21.py us.osm changesets.sqlite
+  460  python stm21.py us.osm changesets.sqlite
+  461  python stm21.py us.osm changesets.sqlite
+  462  cat schema.sql | sqlite3 changesets.sqlite
+  463  python stm21.py us.osm changesets.sqlite
+  464  python stm21.py us.osm changesets.sqlite
+  465  cd ..
+  466  cd Geoson/
+  467  python converts-times.py 220.osm 220-time.json
+  468  cd ..
+  469  cd sometimemachine/
+  470  gi status
+  471  git status
+  472  gir add .
+  473  git commit -m 'add my Files'
+  474  git branch
+  475  git push -u origin master
+  476  git add .
+  477  git commit -m 'add my Files'
+  478  git push -u origin master
+  479  cd ..
+  480  cd ...
+  481  cd ..
+  482  sudo su potgres
+  483  sudo su postgres
+  484  ~/.dropbox-dist/dropboxd
+  485  cd Dropbox/
+  486  cd webpages/
+  487  cd AppTesis/
+  488  git sigturayac
+  489  cd sigturayac
+  490  git status
+  491  git add .
+  492  git commit -m 'add files'
+  493  git push -u origin gh-pages
+  494  git add . -A
+  495  git commit -m 'add files'
+  496  git push -u origin gh-pages
+  497  git add . -A
+  498  git commit -m 'add files'
+  499  git push -u origin gh-pages
+  500  ~/.dropbox-dist/dropboxd
+  501  cd Dropbox/
+  502  cd webpages/
+  503  cd sometimemachine/
+  504  cd Rub21/
+  505  cat schema.sql | sqlite3 changesets.sqlite
+  506  python stm21.py us.osm changesets.sqlite
+  507  cat schema.sql | sqlite3 changesets.sqlite
+  508  python stm21.py us.osm changesets.sqlite
+  509  python stm21.py us.osm changesets.sqlite
+  510  cat schema.sql | sqlite3 changesets.sqlite
+  511  python stm21.py us.osm changesets.sqlite
+  512  hystory
+  513  history
+  514  history >> history.txt

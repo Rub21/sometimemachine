@@ -27,13 +27,11 @@ query = """insert into osm_changeset
 counter = 0
 def save(attrib):
     global counter
-    
+    counter = counter +1
     print counter 
     #attrib_id = int(attrib['id'])    
     attrib_user = attrib.get('user', "none")
-    print (int(parse(attrib["timestamp"]).strftime('%s')))
     if((int(parse(attrib["timestamp"]).strftime('%s'))>=1366416000) & (int(parse(attrib["timestamp"]).strftime('%s'))<1366502400)): #from 04/20/2013 1366416000
-     counter = counter +1
      cur.execute(query,
         (counter,
         int(attrib.get('uid', -1)),
@@ -43,7 +41,7 @@ def save(attrib):
         int(parse(attrib["timestamp"]).strftime('%s')),       
         int(attrib['version']),
         int(attrib['changeset'])))
-    if ((counter % 100000 == 0) | (counter == 1158216)):
+    if ((counter % 100000 == 0) | (counter == 1034970)):
        conn.commit()
        print("%d done===================================================================" % counter)
 
@@ -55,3 +53,6 @@ p = xml.parsers.expat.ParserCreate()
 p.StartElementHandler = start_element
 
 p.ParseFile(open(osm_filename))
+
+#
+#1366520337
